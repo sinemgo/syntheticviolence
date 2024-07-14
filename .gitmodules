@@ -1,0 +1,6 @@
+[submodule "themes/shortcode-gallery"]
+	path = themes/hugo-shortcode-gallery
+	url = https://github.com/mfg92/hugo-shortcode-gallery.git
+[submodule "themes/black"]
+	path = themes/black
+	url = https://github.com/SunkenPotato/black.git

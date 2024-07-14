@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = ["black", "hugo-shortcode-gallery"]
+
+
+[params]
+    frontimage = "LOGO.png" # The base image.
+
+
+    [menu]
+    [[menu.main]]   # Example menu item
+        name = "Home" # Your menu text
+        url = "/"   # The URL it points to
+        weight = 1 # The index of the menu item
+        [menu.main.params] # Optional.
+            disabled = false
